@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.fixed-top {
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 4px 4px -2px #989898;
+    -moz-box-shadow: 0 4px 4px -2px #989898;
+    -webkit-box-shadow: 0 4px 4px -2px #989898;
+}
+
+button .navbar-toggler, .navbar-toggler-icon {
+    background-color: transparent;
+    border: none;
+    color: #8C1196;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #8C1196;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#mynav {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    text-decoration: none;
+    margin-right: 5%;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#mynav .navbar-nav li a:hover {
+    color: #8C1196;
+}
+
+.navbar-brand img {
+    max-width: 180px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    margin-left: 40%;
+}
+
+.navbar-toggler {
+    margin-right: 5%;
+}
+
+article .artigo {
+    width: 900px;
+    height: 600px;
+    background-image: url(../img/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artigo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #2e2e2e;
+    text-align: center;
+    padding-top: 45%;
+}
+
+.artigo h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e2e2e;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.artigo a {
+    font-size: 10px;
+    color: #2e2e2e;
+    text-decoration: none;
+    margin-left: 75%;
+}
+
+.artigo a:hover {
+    color: #111;
+}
+
+.material-symbols-outlined {
+    margin-right: 2px;
+    vertical-align: -5px;
+}
+
+.texto h5, p {
+    width: 56%;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 28px;
+}
+
+#retorn {
+    text-decoration: none;
+    color: #491957;
+}
+
+#retorn:hover {
+    color: #111;
+}
+
+#pint {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #c8232c;
+}
+
+#pint:hover {
+    color: #111;
+}
+
+.compartilhar {
+    width: 56%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.compartilhe {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1%;
+    font-size: 18px;
+}
+
+.icon img {
+    width: 4.5%;
+}
+
+.autora {
+    display: flex;
+    flex-wrap: wrap;
+    width: 56%;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.autora img {
+    max-width: 120px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+}
+
+.autora a {
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    color: #111;
+    font-size: 18px;
+    margin-left: 1%;
+    margin-top: 3.5%;
+    font-weight: bold;
+}
+
+.autora a:hover {
+    color: #491957;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    background-color: #491957;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 4%;
+}
+
+.logobranca {
+    width: 20%;
+}
+
+footer .logobranca img {
+    max-width: 180px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+footer .menu-footer {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 25px;
+}
+
+.menu-footer h5 {
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.menu-footer a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.menu-footer a:hover {
+    color: #111;
+}
+
+footer .des-final {
+    width: 45%;
+}
+
+footer h6 {
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: right;
+    margin-top: 18%;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    article .artigo {
+        width: 800px;
+        height: 500px;
+    }
+
+    .artigo h1 {
+        padding-top: 40%;
+    }
+
+    .artigo a {
+        margin-left: 70%;
+    }
+
+    .texto h5, p {
+        width: 60%;
+    }
+
+    .compartilhar {
+        width: 60%;
+    }
+
+    .autora {
+        width: 60%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 80px;
+    }
+      
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+
+    article .artigo {
+        width: 700px;
+        height: 500px;
+    }
+
+    .artigo h1 {
+        padding-top: 35%;
+    }
+
+    .artigo a {
+        margin-left: 70%;
+    }
+
+    .texto h5, p {
+        width: 65%;
+    }
+
+    .compartilhar {
+        width: 65%;
+    }
+
+    .autora {
+        width: 65%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 80px;
+    }
+      
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1023px) {
+
+    article .artigo {
+        width: 700px;
+        height: 500px;
+    }
+
+    .artigo h1 {
+        padding-top: 30%;
+    }
+
+    .artigo a {
+        margin-left: 70%;
+    }
+
+    .texto h5, p {
+        width: 65%;
+    }
+
+    .compartilhar {
+        width: 65%;
+    }
+
+    .autora {
+        width: 65%;
+    }
+
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 80px;
+    }
+      
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+
+    article .artigo {
+        width: 700px;
+        height: 500px;
+    }
+
+    .artigo h1 {
+        padding-top: 30%;
+    }
+
+    .artigo a {
+        margin-left: 70%;
+    }
+
+    .texto h5, p {
+        width: 80%;
+    }
+
+    .compartilhar {
+        width: 80%;
+    }
+
+    .autora {
+        width: 80%;
+    }
+
+    .icon img {
+        width: 6%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 80px;
+    }
+
+    footer h6 {
+        margin-top: 30%;
+    }
+       
+}
+
+@media screen and (min-width:450px) and (max-width: 767px) {
+
+    .navbar-brand img {
+        margin-left: 5%;
+    }
+
+    article .artigo {
+        width: 450px;
+        height: 350px;
+    }
+
+    .artigo h1 {
+        padding-top: 45%;
+        font-size: 30px;
+    }
+
+    .artigo h5 {
+        font-size: 17px;
+    }
+
+    .artigo a {
+        margin-left: 50%;
+    }
+    
+    .texto h5, p {
+        width: 80%;
+    }
+
+    .compartilhar {
+        width: 80%;
+    }
+
+    .autora {
+        width: 80%;
+    }
+
+    .icon img {
+        width: 10%;
+    }
+
+    .autora img {
+        max-width: 100px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
+    }
+
+    .autora a {
+        font-size: 15px;
+        margin-left: 2%;
+        margin-top: 7%;
+        font-weight: bold;
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    footer .menu-footer {
+        width: 45%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 90%;
+    }
+
+    footer h6 {
+        width: 90%;
+        margin-left: 60%;
+        margin-top: 10%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width:400px) and (max-width: 449px) {
+
+    .navbar-brand img {
+        margin-left: 0%;
+    }
+
+    article .artigo {
+        width: 400px;
+        height: 300px;
+    }
+
+    .artigo h1 {
+        padding-top: 40%;
+        font-size: 25px;
+    }
+
+    .artigo h5 {
+        font-size: 17px;
+    }
+
+    .artigo a {
+        margin-left: 45%;
+    }
+    
+    .texto h5, p {
+        width: 90%;
+    }
+
+    .compartilhar {
+        width: 90%;
+    }
+
+    .autora {
+        width: 90%;
+    }
+
+    .icon img {
+        width: 10%;
+    }
+
+    .autora img {
+        max-width: 120px;
+        max-height: 120px;
+        width: auto;
+        height: auto;
+    }
+
+    .autora a {
+        font-size: 18px;
+        margin-left: 2%;
+        margin-top: 7%;
+        font-weight: bold;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 550px;
+        margin-top: 20%;
+    }
+
+    footer .menu-footer {
+        width: 45%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 30%;
+    }
+
+    footer .des-final h6 {
+        width: 100%;
+        text-align: right;
+        margin-left: 80%;
+        margin-top: 20%;
+    }
+         
+}
+
+@media screen and (max-width: 399px) {
+
+    .navbar-brand img {
+        margin-left: 0%;
+    }
+
+    article .artigo {
+        width: 300px;
+        height: 200px;
+    }
+
+    .artigo h1 {
+        font-size: 25px;
+        padding-top: 15%;
+    }
+    
+    .artigo h5 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .artigo a {
+        margin-left: 30%;
+    }
+    
+    .texto h5, p {
+        width: 90%;
+        text-align: left;
+    }
+
+    .compartilhar {
+        width: 90%;
+    }
+
+    .autora {
+        width: 90%;
+    }
+
+    .icon img {
+        width: 10%;
+    }
+
+
+    .autora img {
+        max-width: 120px;
+        max-height: 120px;
+        width: auto;
+        height: auto;
+    }
+
+    .autora a {
+        font-size: 18px;
+        margin-left: 2%;
+        margin-top: 7%;
+        font-weight: bold;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 550px;
+        margin-top: 30%;
+    }
+
+    footer .menu-footer {
+        width: 45%;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    footer .menu-footer {
+        width: 45%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 30%;
+    }
+
+    footer .des-final h6 {
+        width: 100%;
+        text-align: right;
+        margin-left: 80%;
+        margin-top: 20%;
+    }
+     
+}
