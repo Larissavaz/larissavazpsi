@@ -1,1 +1,303 @@
-*{margin:0;padding:0;box-sizing:border-box}body{background-image:url(https://larissavazpsi.com.br/blog/img/fundo.webp);background-repeat:no-repeat;background-size:cover}.fixed-top{background-image:url(https://larissavazpsi.com.br/blog/img/fundo.webp);background-repeat:no-repeat;background-size:cover;width:100%;box-shadow:0 4px 4px -2px #989898;-moz-box-shadow:0 4px 4px -2px #989898;-webkit-box-shadow:0 4px 4px -2px #989898}.navbar-toggler-icon,button .navbar-toggler{background-color:transparent;border:none;color:#8c1196}button:hover{cursor:pointer;background-color:#8c1196;color:#fff;border-radius:5px}#mynav{text-align:right;font-family:Montserrat,sans-serif;color:#111;text-decoration:none;margin-right:5%;line-height:30px;font-weight:700}#mynav .navbar-nav li a:hover{color:#8c1196}.navbar-brand img{max-width:180px;max-height:180px;width:auto;height:auto;margin-left:40%}.navbar-toggler{margin-right:5%}.cards{margin-top:12%}.card-group{width:80%;margin-left:auto;margin-right:auto}.card{margin-left:4%;margin-right:4%;margin-top:4%}.card a{text-decoration:none}.card-title{text-decoration:none;color:#111}.card-text{text-decoration:none;color:#111}.w350{max-width:350px}.cards img:hover{filter:opacity(.5)}.card-link{text-decoration:none;color:#491957;font-weight:700}.card-link:hover{color:#111}footer{display:flex;flex-wrap:wrap;width:100%;height:200px;background-color:#491957;font-family:Montserrat,sans-serif;color:#fff;margin-top:20%}.logobranca{width:20%}footer .logobranca img{max-width:180px;max-height:180px;width:auto;height:auto;margin-top:20px;margin-left:30%}footer .menu-footer{display:flex;flex-direction:row;flex-direction:column;width:25%;padding-top:25px}.menu-footer h5{font-weight:700;margin-left:30px;padding-top:10px;text-align:left}.menu-footer a{text-decoration:none;font-family:Montserrat,sans-serif;color:#fff;line-height:30px;text-align:left;margin-left:30px}.menu-footer a:hover{color:#111}footer .des-final{width:50%;margin-right:5%}footer h6{font-weight:lighter;font-family:Montserrat,sans-serif;color:#fff;text-align:right;margin-top:15%;margin-bottom:20px}@media screen and (min-width:1024px) and (max-width:1199px){.cards{margin-top:20%}}@media screen and (min-width:1000px) and (max-width:1023px){.cards{margin-top:22%}.menu-footer a,.menu-footer h5{margin-left:80px}}@media screen and (min-width:768px) and (max-width:1000px){.cards{margin-top:25%}footer h6{margin-top:30%}}@media screen and (min-width:450px) and (max-width:767px){.navbar-brand img{margin-left:5%}.cards{margin-top:45%}footer{height:400px}footer .menu-footer{width:45%}.menu-footer a,.menu-footer h5{margin-left:90%}footer h6{width:90%;margin-left:60%;margin-top:10%;text-align:center}}@media screen and (min-width:400px) and (max-width:449px){.navbar-brand img{margin-left:0}.cards{margin-top:50%}footer{flex-direction:column;height:550px;margin-top:20%}footer .menu-footer{width:45%}.menu-footer a,.menu-footer h5{margin-left:30%}footer .des-final h6{width:100%;text-align:right;margin-left:80%;margin-top:20%}}@media screen and (max-width:399px){.navbar-brand img{margin-left:0}.cards{margin-top:60%}footer{flex-direction:column;height:600px}footer .menu-footer{width:45%}.menu-footer a,.menu-footer h5{margin-left:30%}footer .des-final h6{width:100%;text-align:right;margin-left:80%;margin-top:20%}}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed-top {
+    background-image: url(../img/fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 4px 4px -2px #989898;
+    -moz-box-shadow: 0 4px 4px -2px #989898;
+    -webkit-box-shadow: 0 4px 4px -2px #989898;
+}
+
+button .navbar-toggler, .navbar-toggler-icon {
+    background-color: transparent;
+    border: none;
+    color: #8C1196;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #8C1196;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#mynav {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    text-decoration: none;
+    margin-right: 5%;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#mynav .navbar-nav li a:hover {
+    color: #8C1196;
+}
+
+.navbar-brand img {
+    max-width: 180px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    margin-left: 40%;
+}
+
+.navbar-toggler {
+    margin-right: 5%;
+}
+
+.cards {
+    margin-top: 12%;
+}
+
+.card-group {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card-title {
+    text-decoration: none;
+    color: #111;
+}
+
+.card-text {
+    text-decoration: none;
+    color: #111;
+}
+
+.w350 {
+    max-width: 350px;
+}
+
+.cards img:hover {
+    filter: opacity(.5)
+}
+
+.card-link {
+    text-decoration: none;
+    color: #491957;
+    font-weight: bold;
+}
+
+.card-link:hover {
+    color: #111;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    background-color: #491957;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 20%;
+}
+
+.logobranca {
+    width: 20%;
+}
+
+footer .logobranca img {
+    max-width: 180px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+footer .menu-footer {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    width: 25%;
+    padding-top: 25px;
+}
+
+.menu-footer h5 {
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.menu-footer a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.menu-footer a:hover {
+    color: #111;
+}
+
+footer .des-final {
+    width: 50%;
+    margin-right: 5%;
+}
+
+footer h6 {
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: right;
+    margin-top: 15%;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+
+    .cards {
+        margin-top: 20%;
+    }
+      
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1023px) {
+
+    .cards {
+        margin-top: 22%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 80px;
+    }
+       
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+
+    .cards {
+        margin-top: 25%;
+    }
+
+    footer h6 {
+        margin-top: 30%;
+    }
+        
+}
+
+@media screen and (min-width:450px) and (max-width: 767px) {
+
+    .navbar-brand img {
+        margin-left: 5%;
+    }
+
+    .cards {
+        margin-top: 45%;
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    footer .menu-footer {
+        width: 45%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 90%;
+    }
+
+    footer h6 {
+        width: 90%;
+        margin-left: 60%;
+        margin-top: 10%;
+        text-align: center;
+    }
+        
+}
+
+@media screen and (min-width:400px) and (max-width: 449px) {
+
+    .navbar-brand img {
+        margin-left: 0%;
+    }
+
+    .cards {
+        margin-top: 50%;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 550px;
+        margin-top: 20%;
+    }
+
+    footer .menu-footer {
+        width: 45%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 30%;
+    }
+
+    footer .des-final h6 {
+        width: 100%;
+        text-align: right;
+        margin-left: 80%;
+        margin-top: 20%;
+    }
+         
+}
+
+@media screen and (max-width: 399px) {
+
+    .navbar-brand img {
+        margin-left: 0%;
+    }
+
+    .cards {
+        margin-top: 60%;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    footer .menu-footer {
+        width: 45%;
+    }
+
+    .menu-footer h5, .menu-footer a {
+        margin-left: 30%;
+    }
+
+    footer .des-final h6 {
+        width: 100%;
+        text-align: right;
+        margin-left: 80%;
+        margin-top: 20%;
+    }
+      
+}
