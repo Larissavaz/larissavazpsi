@@ -411,6 +411,7 @@ footer h6 {
     
     .texto h5, p {
         width: 80%;
+        text-align: left;
     }
 
     .compartilhar {
